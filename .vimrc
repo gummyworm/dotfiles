@@ -51,6 +51,7 @@ let g:netrw_banner = 0
 
 " clang format
 let g:clang_format#detect_style_file=1
+let g:clang_format#auto_format=1
 autocmd FileType c,h ClangFormatAutoEnable
 
 set colorcolumn=80
