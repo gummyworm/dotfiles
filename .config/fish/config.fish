@@ -24,4 +24,9 @@ alias gcp="git cherry-pick"
 alias gl="git lg"
 alias gpom="git pull origin master"
 
+set -x GOPATH $HOME
+set -gx PATH $PATH ~/bin
+set -gx PATH /Applications/VICE/bin $PATH
+set -gx PYTHONPATH $PYTHONPATH ="/usr/local/lib/python2.7/site-packages/"
+
 tmux
